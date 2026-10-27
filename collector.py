@@ -139,7 +139,7 @@ def collect_gw(gw, directory_name, output_dir, root_directory_name="data/2026-27
                         if id in xPoints:
                             row['xP'] = xPoints[id]
                         else:
-                            row['xP'] = 0.0
+                            row['xP'] = ''
                         rows += [row]
 
     fieldnames = ['name', 'position', 'team', 'xP'] + fieldnames
